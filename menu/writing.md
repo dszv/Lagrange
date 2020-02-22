@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Writing
+title: Posts
 ---
-<class="posts">
+<ul class="posts">
   {% for post in site.posts %}
 
     {% unless post.next %}
