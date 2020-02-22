@@ -9,7 +9,7 @@ image: mountains.jpg
 
 Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
-$$ F=ma^{666} $$
+$$ F=ma^{6666} $$
 
 ## Getting Started
 
