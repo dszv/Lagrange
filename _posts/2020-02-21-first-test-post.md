@@ -6,7 +6,7 @@ categories: journal
 tags: [sample]
 ---
 
-Maxweel equations
+Maxwell equations
 
 ## Differential
 
