@@ -6,11 +6,11 @@ categories: journal
 tags: [sample]
 ---
 
-# Minimalist
+Maxweel equations
 
-## Minimalist
+## Differential
 
-### Minimalist
+### Form
 
 $$ dF=-*J $$
 
