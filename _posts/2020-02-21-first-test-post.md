@@ -6,11 +6,11 @@ categories: journal
 tags: [sample]
 ---
 
-#Minimalist
+# Minimalist
 
-##Minimalist
+## Minimalist
 
-###Minimalist
+### Minimalist
 
 $$ dF=-*J $$
 
