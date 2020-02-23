@@ -4,6 +4,8 @@ title: "First post"
 author: "Diego S"
 categories: journal
 tags: [sample]
+header-includes:
+- \usepackage{physics}
 ---
 
 Maxwell equations
@@ -13,5 +15,7 @@ Maxwell equations
 ### Form
 
 $$ dF=-*J $$
+
+$$ \qty(\bra{\psi } = \ket{\psi })  $$
 
 $$ \delta F = 0$$
