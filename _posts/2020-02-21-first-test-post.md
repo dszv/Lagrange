@@ -14,6 +14,4 @@ Maxwell equations
 
 $$ dF=-*J $$
 
-$$ \qty(\bra{\psi } = \ket{\psi })  $$
-
-$$ \delta F = 0$$
+$$ \delta F = 0 $$
