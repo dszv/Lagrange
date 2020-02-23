@@ -4,9 +4,9 @@ title: "First post"
 author: "Diego S"
 categories: journal
 tags: [sample]
-header-includes:
-- \usepackage{physics}
 ---
+
+$\require{\packagename}$
 
 Maxwell equations
 
