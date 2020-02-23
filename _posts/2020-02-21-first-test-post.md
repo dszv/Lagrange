@@ -6,8 +6,6 @@ categories: journal
 tags: [sample]
 ---
 
-$\require{\packagename}$
-
 Maxwell equations
 
 ## Differential
