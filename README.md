@@ -1,8 +1,10 @@
 # Personal blog
 
-First blog test for physics posts.
+First blog test for physics posts using the Lagrange theme.
 
-# Old README.md
+# Lagrange
+
+### Note: Old README.md
 
 Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/).
 
@@ -287,5 +289,6 @@ This theme is completely free and open source software. You may use it however y
 
 Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1ODQ1ODY5LC0xOTI4NTEzNDU5XX0=
+eyJoaXN0b3J5IjpbLTIwNDAxODIzMDIsLTE5Mjg1MTM0NTldfQ
+==
 -->
