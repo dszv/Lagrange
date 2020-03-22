@@ -13,6 +13,13 @@ image: cards.jpg
 
 ### Form
 
-$$ dF=-*J $$
+$$ dF= -*J $$
 
 $$ \delta F = 0 $$
+
+$$ \partial _{\nu }F^{\mu \nu } = -J^{\mu }$$
+
+$$ \partial _{[\mu }F_{\nu \gamma ]} = 0 $$
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDgyODYyMTZdfQ==
+-->
