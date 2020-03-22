@@ -13,7 +13,7 @@ image: cards.jpg
 
 ### Form
 
-Beggining
+Beginning
 
 $$ dF= -*J $$
 
@@ -25,5 +25,6 @@ $$ \partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \nu } + \partial 
 
 End.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTM5MTM0LDQ4Mjg2MjE2XX0=
+eyJoaXN0b3J5IjpbMTA0MzI4NDgwMSwxMDQxMzkxMzQsNDgyOD
+YyMTZdfQ==
 -->
