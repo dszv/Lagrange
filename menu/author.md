@@ -13,8 +13,8 @@ diego.suarez@uni.pe
 
 +51 955 518 359
 
-[ResearchGate]([https://www.researchgate.net/profile/Diego_Suarez_Valencia](https://www.researchgate.net/profile/Diego_Suarez_Valencia)), [arxiv]([https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D)), [github]([https://github.com/dszv](https://github.com/dszv))
+[ResearchGate](https://www.researchgate.net/profile/Diego_Suarez_Valencia), [arxiv](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D), [github](https://github.com/dszv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2NTM1Mzg4LC05MzM3MTM1MTIsLTQ1Nz
-Q4NTM5OV19
+eyJoaXN0b3J5IjpbLTE4NTI5NTE1NjcsNTc2NTM1Mzg4LC05Mz
+M3MTM1MTIsLTQ1NzQ4NTM5OV19
 -->
