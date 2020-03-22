@@ -19,9 +19,9 @@ $$ \delta F = 0 $$
 
 $$ \partial _{\nu }F^{\mu \nu } = -J^{\mu }$$
 
-$$ \partial _{\mu }F_{\nu \gamma } = 0 $$
+$$ \partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \gamma } + \partial _{\mu }F_{\nu \gamma } = 0 $$
 
 End.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjkzNDcyOSw0ODI4NjIxNl19
+eyJoaXN0b3J5IjpbNzA0NTY0NTg1LDQ4Mjg2MjE2XX0=
 -->
