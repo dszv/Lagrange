@@ -7,7 +7,7 @@ title: Author
 
 *Universidad Nacional de Ingeniería*
 
-*Lima, Perú*
+*Lima, Peru*
 
 diego.suarez@uni.pe
 
@@ -15,6 +15,6 @@ diego.suarez@uni.pe
 
 [ResearchGate](https://www.researchgate.net/profile/Diego_Suarez_Valencia), [arxiv](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D), [github](https://github.com/dszv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI5NTE1NjcsNTc2NTM1Mzg4LC05Mz
-M3MTM1MTIsLTQ1NzQ4NTM5OV19
+eyJoaXN0b3J5IjpbNTMxOTA0NzkwLC0xODUyOTUxNTY3LDU3Nj
+UzNTM4OCwtOTMzNzEzNTEyLC00NTc0ODUzOTldfQ==
 -->
