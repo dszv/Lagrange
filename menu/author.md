@@ -2,7 +2,7 @@
 layout: page
 title: Author
 ---
-## Diego Suárez Valencia
+### Diego Suárez Valencia
 *B. Sc. Physics*
 
 *Universidad Nacional de Ingeniería*
@@ -15,6 +15,6 @@ diego.suarez@uni.pe
 
 [ResearchGate](https://www.researchgate.net/profile/Diego_Suarez_Valencia), [arxiv](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D), [github](https://github.com/dszv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxOTA0NzkwLC0xODUyOTUxNTY3LDU3Nj
-UzNTM4OCwtOTMzNzEzNTEyLC00NTc0ODUzOTldfQ==
+eyJoaXN0b3J5IjpbLTgxNDc5MjYyNywtMTg1Mjk1MTU2Nyw1Nz
+Y1MzUzODgsLTkzMzcxMzUxMiwtNDU3NDg1Mzk5XX0=
 -->
