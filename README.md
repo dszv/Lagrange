@@ -2,6 +2,9 @@
 
 First blog test for physics posts using the Lagrange theme.
 
+$$d F = -*J$$
+$$\delta F = 0$$
+
 # Lagrange
 
 ### Note: Old README.md
@@ -289,6 +292,5 @@ This theme is completely free and open source software. You may use it however y
 
 Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAxODIzMDIsLTE5Mjg1MTM0NTldfQ
-==
+eyJoaXN0b3J5IjpbLTM5ODEzNjI3NywtMTkyODUxMzQ1OV19
 -->
