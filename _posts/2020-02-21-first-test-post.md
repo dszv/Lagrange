@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First post"
+title: "Levi-Civita symbol, pseudo-tensor and tensor"
 author: "Diego S"
 categories: journal
 tags: [sample]
@@ -25,6 +25,6 @@ $$ \partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \nu } + \partial 
 
 End.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzI4NDgwMSwxMDQxMzkxMzQsNDgyOD
-YyMTZdfQ==
+eyJoaXN0b3J5IjpbNDgzMzQ3NTY4LDEwNDMyODQ4MDEsMTA0MT
+M5MTM0LDQ4Mjg2MjE2XX0=
 -->
