@@ -1,6 +1,6 @@
 # Vacua
 
-Personal blog for physics posts using the Lagrange theme.
+A personal blog about physics notes using the Lagrange theme.
 
 # Lagrange
 
@@ -289,6 +289,6 @@ This theme is completely free and open source software. You may use it however y
 
 Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzE3NDQzMCwxNTAxOTQxNDM0LC00MT
-QxNTExNjYsLTE5Mjg1MTM0NTldfQ==
+eyJoaXN0b3J5IjpbODk2MDQxMTA5LC03ODMxNzQ0MzAsMTUwMT
+k0MTQzNCwtNDE0MTUxMTY2LC0xOTI4NTEzNDU5XX0=
 -->
