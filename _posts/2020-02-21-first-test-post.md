@@ -6,7 +6,7 @@ categories: journal
 tags: [sample]
 image: cards.jpg
 ---
-
+[under construction]
 # Maxwell equations
 
 ## Differential
@@ -25,6 +25,7 @@ $$ \partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \nu } + \partial 
 
 End.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ5MDg4NzUsNDgzMzQ3NTY4LDEwND
-MyODQ4MDEsMTA0MTM5MTM0LDQ4Mjg2MjE2XX0=
+eyJoaXN0b3J5IjpbLTExNDIyMzMxNzIsLTE0MTQ5MDg4NzUsND
+gzMzQ3NTY4LDEwNDMyODQ4MDEsMTA0MTM5MTM0LDQ4Mjg2MjE2
+XX0=
 -->
