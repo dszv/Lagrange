@@ -13,6 +13,15 @@ Getting Started: getting started with installing Lagrange, whether you are compl
 
 Text and Formatting
 
-### Questions?
+### QuestioAbout
+---
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+
+Personal blog for physics posts using the [Lagrange theme]([https://github.com/LeNPaul/Lagrange](https://github.com/LeNPaul/Lagrange)).
+
+### Licens?e
+
+This theme is completely free and open source software. You may use it however you want, as iIt is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNTM1NjM0NzVdfQ==
+-->
