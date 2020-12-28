@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Levi-Civita symbol, pseudotensor and tensor"
+title: "Measurement in Quantum Mechanics"
 author: "Diego S"
 categories: journal
 tags: [sample]
 image: cards.jpg
 ---
-# Measurement in Quantum Mechanics
-
 [Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*]
 
 The question of carrying out measurements in quantum-mechanical systems and an interpretation of the results so obtained is rightly considered to be very complicated, requiring even today further research. We shall not given a detailed analysis of the problem of quantum-mechanical measurements, but shall try to describe a number of fundamental statements which have been explained clearly, and demonstrate them using some examples. 
