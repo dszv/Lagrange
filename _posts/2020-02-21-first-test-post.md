@@ -18,4 +18,6 @@ $$
 $$
 The numbers $ \langle \alpha | \beta _i \rangle $ in the superposition above are essentially the amplitudes of the states $\langle \beta _i | $ or, more accurately, the amplitudes of the probabilities with which the various basic states $\langle \beta _i |$ are "represented" in the state $\langle \alpha |$.
 
+The reader who has 
+
 Death is always quite disastrous, messy common and obscene.
