@@ -6,8 +6,6 @@ categories: journal
 tags: [sample]
 image: cards.jpg
 ---
-[under construction]
-
 # Maxwell equations
 
 ## Differential
@@ -34,4 +32,4 @@ $$
 
 End.
 
-Death is always quite disastrous. 
+Death is always quite disastrous, messy common and obscene.
