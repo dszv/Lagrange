@@ -16,17 +16,22 @@ image: cards.jpg
 
 Beginning
 
-$$ dF= -*J $$
+$$
+dF= -*J
+$$
 
-$$ \delta F = 0 $$
+$$
+\delta F = 0
+$$
 
-$$ \partial _{\nu }F^{\mu \nu } = -J^{\mu }$$
+$$
+\partial _{\nu }F^{\mu \nu } = -J^{\mu }
+$$
 
-$$ \partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \nu } + \partial _{\nu }F_{\gamma \nu } = 0 $$
+$$
+\partial _{\mu }F_{\nu \gamma } + \partial _{\gamma }F_{\mu \nu } + \partial _{\nu }F_{\gamma \nu } = 0
+$$
 
 End.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDEwMTg1MCwtMTQxNDkwODg3NSw0OD
-MzNDc1NjgsMTA0MzI4NDgwMSwxMDQxMzkxMzQsNDgyODYyMTZd
-fQ==
--->
+
+Death is always quite disastrous. 
