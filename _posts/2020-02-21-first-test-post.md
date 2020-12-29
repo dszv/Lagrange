@@ -92,4 +92,12 @@ Thus, while the analyzer creates a definitive superposition of states, the detec
 
 ## Some Peculiarities of the Quantum-Mechanical Measuring Process
 
+In the first place we note that the process of measurement has a radical influence on the micro-particle. It is enough to point out that a change in the initial state of the micro-particle in the measuring process is a circumstance of fundamental importance. It is well known that while carrying out measurements with macroscopic bodies it is possible to isolate the object to a certain extent from the means of measurement. In quantum mechanics this is in principle impossible to do so. In other words, it is impossible to neglect the interaction of the micro-particle with its surroundings.
+
+The "scheme" of the measuring process, and more concretely that part which is described by $$\eqref{T11.6}$$, is a demonstration of the existence of the element of chance in the behavior of a micro-particle. Indeed, it is impossible to predict unambiguously in which $$\beta$$-state a certain micro-particle will be finally found.
+
+The impossibility of a graphic representation of the first stage of the process (when the analyzer creates a superposition of states) or the final stage (when the detector "confines" this superposition to a single state) is also a specific feature of the quantum-mechanical measuring process.
+
+Thus, obviously, in the first stage of the process of measurement it must not be assumed that a micro-particle is literally "spread" over various states of superposition (for example, that it passes partially through one slit and and partially through the other in the well-know two slit experiment).
+
 [Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*]
