@@ -35,7 +35,7 @@ _Second question_: If the amplitude of state is really the transition amplitude,
 _Third question_: It was agreed earlier to read the transition amplitudes from right to left. If $$\langle \alpha \!\!\mid\!\! \beta_i \rangle$$ is also transition amplitude, it should also be read in the reverse direction (from left to right). Isn't it confusing? Actually, if we strictly follow the condition to writing the preceding states to the right of the ones that follows, then $$\eqref{T11.1}$$ should be written as
 
 $$
-\sum_i \mid\!\! \beta_i \rangle \langle \beta_i \!\!\mid\!\! \alpha \rangle = \,\mid\!\! \alpha \rangle
+\sum_i | \beta_i \rangle \langle \beta_i | \alpha \rangle = | \alpha \rangle
 $$
 
 However, such a notation, as a rule, is not used. Hence we decided to allow some inconsistency, and in order to avoid possible confusion in this connection we shall in future retain the term amplitude of state along with the term transition amplitude. When using both these terms the reader must remember that from the point of view of physical meaning, the amplitude of state is nothing but the transition amplitude.
@@ -45,24 +45,26 @@ However, such a notation, as a rule, is not used. Hence we decided to allow some
 _First example_: the analyzer is a screen with two slits. It gives rise to the superposition
 
 $$
-\langle s \!\!\mid\,\, = \langle s \!\!\mid\!\! A \rangle \langle A \!\!\mid + \langle s \!\!\mid\!\! B \rangle \langle B \mid
+\langle s | = \langle s | A \rangle \langle A | + \langle s | B \rangle \langle B |
 $$
 
 _Second example_: the analyzer is a crystal lattice consisting of nuclei of the same type with zero spin. It generates the superposition
 
 $$
-\langle s \!\!\mid\,\, =  \sum_i^N \langle s \!\!\mid\!\! i \rangle \varphi \langle i \mid
+\langle s | =  \sum_i^N \langle s | i \rangle \varphi \langle i |
 $$
 
 _Third example_: The analyzer is a nonuniform magnetic field $$B_1 $$. It gives rise to the superposition
 
 $$
-\langle s \!\!\mid\,\, =  \sum_i^N \langle s \!\!\mid\!\! i \rangle \langle i \mid
+\langle s | = \sum_i^N \langle s | i \rangle \langle i |
 $$
 
 It may be said that an analyzer, generating a certain superposition of states. in fact ensures the emergence of indistinguishable alternatives. Moreover, the number of alternatives is equal to the number of basic states in the given superposition, In the first example this number is just equal to two (i.e. to the number of slits in the screen); in the second example, it is equal to the number of nuclei in the crystal, while in the third example it is equal to the number of spin states (i.e. to $$2s+1$$, if $$s$$ is the spin of the atom).
 
 ## The Essence of Measuring Process
+
+The process of measurement in quantum mechanics consists of three successive stages: (1) a _preparatory stage_ when the micro-particle is "prepared" in a certain state $$\langle \alpha \mid $$
 
 
 
