@@ -10,13 +10,7 @@ The question of carrying out measurements in quantum-mechanical systems and an i
 
 ## The Origin of the Superposition of States and the Meaning of the Amplitudes of States
 
-Suppose that a micro-particle is in a certain state
-
-$$
-\langle \alpha |
-$$
-
-. According to the principle of superposition, the state
+Suppose that a micro-particle is in a certain state \( \langle \alpha | \). According to the principle of superposition, the state
 
 $$
 \langle \alpha |
