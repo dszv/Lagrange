@@ -64,8 +64,32 @@ It may be said that an analyzer, generating a certain superposition of states. i
 
 ## The Essence of Measuring Process
 
-The process of measurement in quantum mechanics consists of three successive stages: (1) a _preparatory stage_ when the micro-particle is "prepared" in a certain state $$\langle \alpha \mid $$
+The process of measurement in quantum mechanics consists of three successive stages: (1) a _preparatory stage_ when the micro-particle is "prepared" in a certain state $$\langle \alpha \mid $$, considered below as a the _initial state_; (2) a _working stage_ in which the "prepared" micro-particle interacts with a certain analyzer and goes over the _superposition state_, and (3) a _registering stage_ in which the micro-particle is registered in one of the basic states forming the superposition. In this stage the micro-particle interacts with some macroscopic body, capable of changing its state under the influence of the micro-particle. This macroscopic body is called the detector.
 
+If for the sake of simplicity we do not consider the preparatory stage the abstract "scheme" of the measurement process may be written in the following way:
 
+$$
+\begin{equation}\label{T11.5}
+\langle s | \xrightarrow{1} \sum_i \langle s | \beta_i \rangle \langle \beta_i | \xrightarrow{2} \langle \beta_i | \tag{2}
+\end{equation}
+$$
+
+Here the arrow $$1$$ corresponds to the working stage, and the arrow $$2$$ to the registering stage.
+
+The basic elements of the measuring instrument (measuring apparatus) are thus the analyzer and the detector. Figuratively speaking, its role boils down to "spying" on how the micro-particle "behaves itself in the superposition state which was created by the analyzer". If we make use of the above examples of analyzers, this "spying" could provide an answer to the question: Which slit did a particular electron pass through? Which nucleus of the crystal lattice scattered a particular neutron? What is the spin state of a particular atom? The reader who is familiar with the results of similar "spying" may foresee that an "intervention" by the detector leads to the destruction of the superposition of states. The detector registers the micro-particle each time in one of the states which constitute the superposition. This is done at the expense of the _destruction of superposition_. This means that the detector converts indistinguishable alternatives into distinguishable ones and thus destroys the interference of the transition amplitudes.
+
+We separate from the "scheme" $$\eqref{T11.5}$$ the registering stage corresponding to the interaction of the micro-particle with the detector:
+
+$$
+\begin{equation}\label{T11.6}
+\sum_i \langle s | \beta_i \rangle \langle \beta_i | \rightarrow \langle \beta_i | \tag{3}
+\end{equation}
+$$
+
+It is often said that a "scheme" of the type of the type $$\eqref{T11.6}$$ describes a "construction" of the superposition $$\sum _i \langle s \!\!\mid\!\! \beta_i \rangle \langle \beta_i \mid$$ to the state $$\langle \beta_i \mid$$. This process is also known as "reduction of the wave packet".
+
+Thus, while the analyzer creates a definitive superposition of states, the detector destroys it by confining this superposition of states to one of the states constituting it. It is obvious that if the "scheme" $$\eqref{T11.5}$$ is tried on a single micro-particle, it is difficult to say anything about getting any useful information. It is necessary to repeat the measuring process for a sufficiently large number of micro-particles. In this case the observer may find out, firstly, the values of the quantities of the $$\beta$$-set encountered in practice, and, secondly, the frequency with which the micro-particles is found in one $$\beta$$-set or another. This allows us to experimentally determine, firstly, the spectrum of the values of the quantities in a $$\beta$$-set and, secondly, the probabilities $$\mid \langle s \!\!\mid\!\! \beta_i \rangle \mid^2 $$.
+
+## Some Peculiarities of the Quantum-Mechanical Measuring Process
 
 [Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*]
