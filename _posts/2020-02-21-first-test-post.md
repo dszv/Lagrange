@@ -11,7 +11,7 @@ The question of carrying out measurements in quantum-mechanical systems and an i
 ## The Origin of the Superposition of States and the Meaning of the Amplitudes of States
 
 Suppose that a micro-particle is in a certain state $$\langle \alpha \mid $$. According to the principle of superposition, the state $$ \langle \alpha \mid $$
-may be expanded in terms of any system of basic states, for example, in the $$ \{ \mid \beta_i \rangle \} $$:
+may be expanded in terms of any system of basic states, for example, in the $$ \{ \mid \! \beta_i \rangle \} $$:
 
 $$
 \langle  \alpha | = \sum_i \langle \alpha | \beta_i \rangle \langle \beta_i |
