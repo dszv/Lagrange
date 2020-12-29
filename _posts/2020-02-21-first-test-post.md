@@ -16,7 +16,13 @@ $$
 \langle \alpha |
 $$
 
-. According to the principle of superposition, the state $$\langle \alpha |$$ may be expanded in terms of any system of basic states, for example, in the 
+. According to the principle of superposition, the state
+
+$$
+\langle \alpha |
+$$
+
+may be expanded in terms of any system of basic states, for example, in the 
 
 $$
 \{ | \beta_i \rangle \}
