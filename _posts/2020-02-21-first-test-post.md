@@ -22,15 +22,15 @@ The numbers $$ \langle \alpha \!\!\mid\!\! \beta_i \rangle $$ in the superpositi
 
 It is appropriate now to make things more precise.
 
-Firstly, we shall note that any definite superposition of states in a micro-particle arises as a result of its interaction with the surroundings. The latter may be some macroscopic body (which is either produced artificially or is a part of the natural external conditions). This macroscopic body is referred to as the _analyser_. The expression $$\eqref{T11.1}$$ should be interpreted in the following way: as a result of the interaction with a particular analyser (in this case, we may speak of a $$\beta $$-analyser), a micro-particle lying in the state $$\langle \alpha \mid$$ is transformed into the superposition state $$\sum _i \langle \alpha \!\!\mid\!\! \beta_i \rangle \langle \beta_i \mid$$.
+Firstly, we shall note that any definite superposition of states in a micro-particle arises as a result of its interaction with the surroundings. The latter may be some macroscopic body (which is either produced artificially or is a part of the natural external conditions). This macroscopic body is referred to as the _analyzer_. The expression $$\eqref{T11.1}$$ should be interpreted in the following way: as a result of the interaction with a particular analyzer (in this case, we may speak of a $$\beta $$-analyzer), a micro-particle lying in the state $$\langle \alpha \mid$$ is transformed into the superposition state $$\sum _i \langle \alpha \!\!\mid\!\! \beta_i \rangle \langle \beta_i \mid$$.
 
-Taking into account that the quantum-mechanical nature of the superposition state, it may be said that by interacting with the $$\beta $$-analyser, the micro-particle in some sense is "transformed" at once into all the states $$\langle \beta_i \mid$$. Here, the amplitude $$\langle \alpha \!\!\mid\!\! \beta_i \rangle$$ should be treated as the amplitude caused by the indicated interaction of the transition $$\langle \alpha \!\!\mid\, \rightarrow \langle \beta_i \mid $$. The quantity $$\mid \langle \alpha \!\!\mid\!\! \beta_i \rangle \mid^2 $$ is the probability of finding the micro-particle finally in just the $$\langle \beta_i \mid$$ state.
+Taking into account that the quantum-mechanical nature of the superposition state, it may be said that by interacting with the $$\beta $$-analyzer, the micro-particle in some sense is "transformed" at once into all the states $$\langle \beta_i \mid$$. Here, the amplitude $$\langle \alpha \!\!\mid\!\! \beta_i \rangle$$ should be treated as the amplitude caused by the indicated interaction of the transition $$\langle \alpha \!\!\mid\, \rightarrow \langle \beta_i \mid $$. The quantity $$\mid \langle \alpha \!\!\mid\!\! \beta_i \rangle \mid^2 $$ is the probability of finding the micro-particle finally in just the $$\langle \beta_i \mid$$ state.
 
 One can anticipate at least three questions.
 
-_First question_: What do we really mean by the expression "the micro-particle is at once transformed into all the $$\langle \beta_i \mid $$ states"? The answer to this question will be given below in the subsection "Potentialities and their realisation in the measuring process". Here, we just remark that although the micro-particle is "simultaneously transformed into all the $$\langle \beta_i \mid$$ states" as a result of its interaction with the $$\beta$$-analyser, it can be found in principle each time in only one $$\beta $$-state. Hence it may be said that no confusion arises. 
+_First question_: What do we really mean by the expression "the micro-particle is at once transformed into all the $$\langle \beta_i \mid $$ states"? The answer to this question will be given below in the subsection "Potentialities and their realization in the measuring process". Here, we just remark that although the micro-particle is "simultaneously transformed into all the $$\langle \beta_i \mid$$ states" as a result of its interaction with the $$\beta$$-analyzer, it can be found in principle each time in only one $$\beta $$-state. Hence it may be said that no confusion arises. 
 
-_Second question_: If the amplitude of state is really the transition amplitude, what about the definitions of amplitudes of states that says "$$\langle \alpha \!\!\mid\!\! \beta \rangle$$ is the probability amplitude of a micro-particle existing in state $$\langle \alpha \mid$$ begin also registered in state $$\langle \beta \mid $$" ? In this definition the word "existing" should be replaced by the more accurate word "existed", since after interaction with the analyser the micro-particle no longer exists in the state $$\langle \alpha \mid $$. Now the word "also" becomes redundant. The definition then assumes the following form: "$$\langle \alpha \!\!\mid\!\! \beta \rangle$$ is the probability amplitude of a micro-particle that existed in state $$\langle \alpha \mid$$ begin registered in state $$\langle \beta \mid $$" . Registering is a kind of measuring process and $$\langle \alpha \!\!\mid\!\! \beta \rangle$$ plays the role of the amplitude of the transition $$\langle \alpha \!\!\mid\, \rightarrow \langle \beta \mid $$ which takes place in this process. Here we remark that in the above-mentioned interaction of the micro-particle with the analyser is just one part of the measuring process.
+_Second question_: If the amplitude of state is really the transition amplitude, what about the definitions of amplitudes of states that says "$$\langle \alpha \!\!\mid\!\! \beta \rangle$$ is the probability amplitude of a micro-particle existing in state $$\langle \alpha \mid$$ begin also registered in state $$\langle \beta \mid $$" ? In this definition the word "existing" should be replaced by the more accurate word "existed", since after interaction with the analyzer the micro-particle no longer exists in the state $$\langle \alpha \mid $$. Now the word "also" becomes redundant. The definition then assumes the following form: "$$\langle \alpha \!\!\mid\!\! \beta \rangle$$ is the probability amplitude of a micro-particle that existed in state $$\langle \alpha \mid$$ begin registered in state $$\langle \beta \mid $$" . Registering is a kind of measuring process and $$\langle \alpha \!\!\mid\!\! \beta \rangle$$ plays the role of the amplitude of the transition $$\langle \alpha \!\!\mid\, \rightarrow \langle \beta \mid $$ which takes place in this process. Here we remark that in the above-mentioned interaction of the micro-particle with the analyzer is just one part of the measuring process.
 
 _Third question_: It was agreed earlier to read the transition amplitudes from right to left. If $$\langle \alpha \!\!\mid\!\! \beta_i \rangle$$ is also transition amplitude, it should also be read in the reverse direction (from left to right). Isn't it confusing? Actually, if we strictly follow the condition to writing the preceding states to the right of the ones that follows, then $$\eqref{T11.1}$$ should be written as
 
@@ -40,6 +40,30 @@ $$
 
 However, such a notation, as a rule, is not used. Hence we decided to allow some inconsistency, and in order to avoid possible confusion in this connection we shall in future retain the term amplitude of state along with the term transition amplitude. When using both these terms the reader must remember that from the point of view of physical meaning, the amplitude of state is nothing but the transition amplitude.
 
-### Examples of Analysers
+### Examples of Analyzers
+
+_First example_: the analyzer is a screen with two slits. It gives rise to the superposition
+
+$$
+\langle s \!\!\mid\,\, = \langle s \!\!\mid\!\! A \rangle \langle A \!\!\mid + \langle s \!\!\mid\!\! B \rangle \langle B \mid
+$$
+
+_Second example_: the analyzer is a crystal lattice consisting of nuclei of the same type with zero spin. It generates the superposition
+
+$$
+\langle s \!\!\mid\,\, =  \sum_i^N \langle s \!\!\mid\!\! i \rangle \varphi \langle i \mid
+$$
+
+_Third example_: The analyzer is a nonuniform magnetic field $$B_1 $$. It gives rise to the superposition
+
+$$
+\langle s \!\!\mid\,\, =  \sum_i^N \langle s \!\!\mid\!\! i \rangle \langle i \mid
+$$
+
+It may be said that an analyzer, generating a certain superposition of states. in fact ensures the emergence of indistinguishable alternatives. Moreover, the number of alternatives is equal to the number of basic states in the given superposition, In the first example this number is just equal to two (i.e. to the number of slits in the screen); in the second example, it is equal to the number of nuclei in the crystal, while in the third example it is equal to the number of spin states (i.e. to $$2s+1$$, if $$s$$ is the spin of the atom).
+
+## The Essence of Measuring Process
+
+
 
 [Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*]
