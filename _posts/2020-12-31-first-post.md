@@ -54,13 +54,13 @@ $$
 \langle s | =  \sum_i^N \langle s | i \rangle \varphi \langle i |
 $$
 
-_Third example_: The analyzer is a non-uniform magnetic field $$B$$. It gives rise to the superposition
+_Third example_: the analyzer is a non-uniform magnetic field $$B$$. It gives rise to the superposition
 
 $$
 \langle s | = \sum_i^N \langle s | i \rangle \langle i |
 $$
 
-It may be said that an analyzer, generating a certain superposition of states. in fact ensures the emergence of indistinguishable alternatives. Moreover, the number of alternatives is equal to the number of basic states in the given superposition, In the first example this number is just equal to two (i.e. to the number of slits in the screen); in the second example, it is equal to the number of nuclei in the crystal, while in the third example it is equal to the number of spin states (i.e. to $$2s+1$$, if $$s$$ is the spin of the atom).
+It may be said that an analyzer, generating a certain superposition of states, in fact ensures the emergence of indistinguishable alternatives. Moreover, the number of alternatives is equal to the number of basic states in the given superposition, In the first example this number is just equal to two (i.e. to the number of slits in the screen); in the second example, it is equal to the number of nuclei in the crystal, while in the third example it is equal to the number of spin states (i.e. to $$2s+1$$, if $$s$$ is the spin of the atom).
 
 ## The Essence of Measuring Process
 
