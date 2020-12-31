@@ -54,7 +54,7 @@ $$
 \langle s | =  \sum_i^N \langle s | i \rangle \varphi \langle i |
 $$
 
-_Third example_: The analyzer is a nonuniform magnetic field $$B_1 $$. It gives rise to the superposition
+_Third example_: The analyzer is a non-uniform magnetic field $$B$$. It gives rise to the superposition
 
 $$
 \langle s | = \sum_i^N \langle s | i \rangle \langle i |
