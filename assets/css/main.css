@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: underline;
-  color: #333;
+  color: #7a8480; /* #333; */
 }
 
 a:hover {
@@ -106,7 +106,7 @@ hr {
 }
 
 .masthead a:hover {
-  color:black;
+  color:#794e87; /* black; */
 }
 
 .masthead-title a {
@@ -116,7 +116,7 @@ hr {
 }
 
 .masthead-subtitle {
-  color: #999;
+  color: #7a8480; /* #999; */
 }
 
 /*
