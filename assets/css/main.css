@@ -19,6 +19,7 @@
 
 body {
   font-family: "Mononoki Nerd Font", Georgia, "Times New Roman", serif; /* PT Serif */
+  src: url("../fonts/mononoki-Regular Nerd Font Complete.ttf") format('truetype');
   font-size: 15px;
   color: #c5c5c5; /* #515151; */
   line-height: 1.95rem;
