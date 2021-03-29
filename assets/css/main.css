@@ -17,6 +17,11 @@
   Base
 */
 
+@font-face {
+    font-family: 'Mononoki Nerd Font';
+    src: url("../fonts/mononoki-Regular Nerd Font Complete.ttf") format('truetype');
+}
+
 body {
   font-family: "Mononoki Nerd Font", Georgia, "Times New Roman", serif; /* PT Serif */
   font-size: 15px;
