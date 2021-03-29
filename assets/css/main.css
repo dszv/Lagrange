@@ -22,6 +22,11 @@
     src: url("../fonts/mononoki-Regular Nerd Font Complete.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: 'Agave Nerd Font';
+    src: url("../fonts/agave regular Nerd Font Complete.ttf") format('truetype');
+}
+
 body {
   font-family: "Mononoki Nerd Font", Georgia, "Times New Roman", serif; /* PT Serif */
   font-size: 15px;
