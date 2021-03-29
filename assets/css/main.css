@@ -18,7 +18,7 @@
 */
 
 body {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Mononoki Nerd Font", Georgia, "Times New Roman", serif; /* PT Serif */
   font-size: 15px;
   color: #c5c5c5; /* #515151; */
   line-height: 1.95rem;
@@ -44,7 +44,7 @@ h1 a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Agave Nerd Font", sans-serif; /* Quattrocento Sans */
   color: #7a8480; /* #333; */
 }
 
