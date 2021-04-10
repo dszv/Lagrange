@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Measurement in Quantum Mechanics"
+title: "Deduction of the Lorentz Force"
 author: "Diego S"
 categories: journal
-tags: [quantum mechanics, experiment]
-image: scat.jpeg
+tags: [quantum mechanics]
+image: aurora.jpeg
 ---
-The question of carrying out measurements in quantum-mechanical systems and an interpretation of the results so obtained is rightly considered to be very complicated, requiring even today further research. We shall not given a detailed analysis of the problem of quantum-mechanical measurements, but shall try to describe a number of fundamental statements which have been explained clearly, and demonstrate them using some examples. 
+Deduction of the Lorentz force as a expected value on the quantum-mechanics formalism using symmetry arguments.
 
 ## The Origin of the Superposition of States and the Meaning of the Amplitudes of States
 
