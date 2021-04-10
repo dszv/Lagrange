@@ -4,7 +4,7 @@ title: "Deduction of the Lorentz Force"
 author: "Diego S"
 categories: journal
 tags: [quantum mechanics]
-image: aurora.jpeg
+image: aurora.jpg
 ---
 Deduction of the Lorentz force as a expected value on the quantum-mechanics formalism using symmetry arguments.
 
