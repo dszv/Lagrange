@@ -1,17 +1,28 @@
 ---
 layout: post
-title: "Deduction of the Lorentz Force"
+title: "Lorentz Force from symmetry"
 author: "Diego S"
 categories: journal
 tags: [quantum mechanics]
 image: aurora.jpg
 ---
-Deduction of the Lorentz force as a expected value on the quantum-mechanics formalism using symmetry arguments.
+Deduction of the Lorentz force as a relation of expected values on the quantum mechanical formalism using symmetry arguments.
 
-## The Origin of the Superposition of States and the Meaning of the Amplitudes of States
+## The Schrodinger lagrangian as a non-relativistic limit of the Klein-Gordon lagrangian
 
+It can be showed that the only possible (and non-trivial) terms of the lagrangian for a scalar field are of the form
+$$
+\begin{equation}\label{1}
+\mathcal{L} = C_1  \Phi ^2 + \partial_{\mu }\Phi \partial ^{\mu }\Phi \tag{1}
+\end{equation}
+$$
+This is called the Klein-Gordon lagrangian. Renaming the constants $ C_1 = -m^2 $ and $ C_2 = 1 $, one can obtain the Klein-Gordon equation vía the least action principle
+$$
+\begin{equation}\label{2}
+	\delta S = 0 \quad \Rightarrow \quad \partial _{\mu } \partial ^{\mu } \Phi + m^2 \Phi = 0 \tag{2}
+\end{equation}
+$$
 Suppose that a micro-particle is in a certain state $$\langle \alpha \mid $$. According to the principle of superposition, the state $$ \langle \alpha \mid $$ may be expanded in terms of any system of basic states, for example, in the $$ \{ \mid\!\! \beta_i \rangle \} $$:
-
 $$
 \begin{equation}\label{T11.1}
 \langle  \alpha | = \sum_i \langle \alpha | \beta_i \rangle \langle \beta_i | \tag{1}
