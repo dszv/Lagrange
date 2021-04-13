@@ -103,20 +103,24 @@ $$
 Replacing these results in $ \eqref{3} $ we end up with
 
 $$
--2im \partial _0 \psi + \partial ^2 _0 \psi - \nabla ^2 \psi + iq (\partial _0 A^0 ) \psi + iq (\nabla \cdot \vec{A}) \psi + 2qm A^0 \psi + 2iq A^0 \partial _0 \psi + 2iq \vec{A} \cdot \nabla \psi - q^2 (A^0 )^2 + q^2 \vec{A}^2 = 0
+\begin{align}
+	-2im \partial _0 \psi + \partial ^2 _0 \psi - \nabla ^2 \psi & + iq (\partial _0 A^0 ) \psi + iq (\nabla \cdot \vec{A}) \psi + 2qm A^0 \psi \\
+    & + 2iq A^0 \partial _0 \psi + 2iq \vec{A} \cdot \nabla \psi - q^2 (A^0 )^2 + q^2 \vec{A}^2 = 0
+\end{align}
 $$
 
 which can be rewritten as
 
 $$
-i \partial _0 \psi - \frac{\partial ^2 _0 \psi }{2m} - iq \frac{A^0 \partial _0 \psi }{m} = \frac{1}{2m} (i\nabla + q \vec{A})(i\nabla + q \vec{A})\psi + q A^0 \psi + iq \frac{\partial _0 A^0 }{2m} \psi - q^2 \frac{(A^0 )^2 }{2m}
+\begin{equation}
+	i \partial _0 \psi - \frac{\partial ^2 _0 \psi }{2m} - iq \frac{A^0 \partial _0 \psi }{m} = \frac{1}{2m} (i\nabla + q \vec{A})(i\nabla + q \vec{A})\psi + q A^0 \psi + iq \frac{\partial _0 A^0 }{2m} \psi - q^2 \frac{(A^0 )^2 }{2m}
+\end{equation}
 $$
 
 
 ## Ideas
 
-1. Then, using the non-relativistic limit for the Einstein relation
-
+Using the non-relativistic limit for the Einstein relation
 $$
 \begin{equation}
 	E = \sqrt{p^2 + m^2} \approx \frac{p^2}{2m} - m
@@ -131,4 +135,4 @@ $$
 \end{equation}
 $$
 
-2. Interpretation: $ \phi (\vec{x}) $ is the probability amplitude to find a particle  between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $. 
+Interpretation: $ \phi (\vec{x}) $ is the probability amplitude to find a particle  between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $. 
