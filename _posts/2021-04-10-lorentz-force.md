@@ -135,7 +135,7 @@ $$
 \end{equation}
 $$
 
-and supposing that $ | qA^0 | \ll m $,  we make these approximations in $ \eqref{3} $ obtaining
+and supposing that $ q A^0 \ll m $, we make these approximations in $ \eqref{3} $ obtaining
 
 $$
 \begin{equation}\label{4}
