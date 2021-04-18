@@ -194,7 +194,7 @@ The Ehrenfest theorem states that the time evolution of the expected value for s
 
 $$
 \begin{equation}
-	\frac{\mathrm{d} }{\mathrm{d} x}\langle O \rangle = -i \langle [O, H]\rangle + \left \langle \frac{\partial O}{\partial t} \right \rangle
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle O \rangle = -i \langle [O, H]\rangle + \left \langle \frac{\partial O}{\partial t} \right \rangle
 \end{equation}
 $$
 
@@ -202,7 +202,7 @@ Using this theorem for the components of the momentum operator
 
 $$
 \begin{align}
-	\frac{\mathrm{d} }{\mathrm{d} x}\langle P_i \rangle & = -i \langle [P_i , H]\rangle + \langle \partial _t P_i \rangle \\
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle P_i \rangle & = -i \langle [P_i , H]\rangle + \langle \partial _t P_i \rangle \\
 	& = -i \left( \frac{1}{2m} \langle [ P_i , \mathbf{P}^2 ] \rangle + q \langle [ P_i , A^0 ] \rangle \right ) + \langle \partial _t P_i \rangle
 \end{align}
 $$
@@ -211,6 +211,6 @@ and after a lot of calculations, we end up with
 
 $$
 \begin{equation}
-	\frac{\mathrm{d} }{\mathrm{d} x}\langle P_i \rangle = \dots
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle P_i \rangle = \dots
 \end{equation}
 $$
