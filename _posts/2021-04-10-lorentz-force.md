@@ -83,6 +83,7 @@ $$
 ### Non-relativistic limit
 
 We take the separation of variables for $ \eqref{2} $ as a reference to make the following ansatz for $ \eqref{3} $:
+
 $$
 \begin{equation}
 	\Phi (x) = \Psi (x) \exp \{ -imx^0 \} \qquad \text{where} \qquad \Psi (x) = \phi (\vec{x})\exp \{ -i(E - m)x^0 \}
