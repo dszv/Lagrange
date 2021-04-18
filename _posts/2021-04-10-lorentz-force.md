@@ -56,15 +56,15 @@ $$
 \end{equation}
 $$
 
-where $ A_{\mu } $ is the electromagnetic field, with gauge transformation law 
+where $ A^{\mu } $ is a vector field, with gauge transformation law 
 
 $$
 \begin{equation}
-	A_{\mu } (x) \quad \mapsto \quad A'_{\mu } (x) = A_{\mu } (x) + q^{-1}\partial _{\mu } \alpha (x)
+	A^{\mu } (x) \quad \mapsto \quad A'^{\mu } (x) = A^{\mu } (x) + q^{-1}\partial ^{\mu } \alpha (x)
 \end{equation}
 $$
 
-Now
+and $q$ is called coupling constant. Now
 
 $$
 \begin{equation}
@@ -98,15 +98,15 @@ $$
 and
 
 $$
-A^{\mu } \partial _{\mu } \Phi = A^0 \partial _0 \Phi + \vec{A} \cdot \nabla \Phi = [ A^0 (-im \Psi + \partial _0 \Psi ) + \vec{A} \cdot \nabla \Psi ] \exp \{-imx^0 \}
+A^{\mu } \partial _{\mu } \Phi = A^0 \partial _0 \Phi + A^i \partial _i \Phi = [ A^0 (-im \Psi + \partial _0 \Psi ) + A^i \partial _i \Psi ] \exp \{-imx^0 \}
 $$
 
 Replacing these results in $ \eqref{3} $ we end up with
 
 $$
 \begin{align}
-	-2im \partial _0 \Psi + \partial ^2 _0 \Psi - \nabla ^2 \Psi & + iq (\partial _0 A^0 ) \Psi + iq (\nabla \cdot \vec{A}) \Psi + 2qm A^0 \Psi \\
-    & + 2iq A^0 \partial _0 \Psi + 2iq \vec{A} \cdot \nabla \Psi - q^2 (A^0 )^2 + q^2 \vec{A}^2 = 0
+	-2im \partial _0 \Psi + \partial ^2 _0 \Psi - \nabla ^2 \Psi & + iq (\partial _0 A^0 ) \Psi + iq (\partial _i A^i ) \Psi + 2qm A^0 \Psi \\
+    & + 2iq A^0 \partial _0 \Psi + 2iq A^i \partial _i \Psi - q^2 (A^0 )^2 + q^2 \vec{A}^2 = 0
 \end{align}
 $$
 
@@ -114,18 +114,19 @@ which can be rewritten as
 
 $$
 \begin{equation}
-	i \partial _0 \Psi - \frac{\partial ^2 _0 \Psi }{2m} - iq \frac{A^0 \partial _0 \Psi }{m} = \frac{1}{2m} (i\nabla + q \vec{A})(i\nabla + q \vec{A}) \Psi + q A^0 \Psi + iq \frac{\partial _0 A^0 }{2m} \Psi - q^2 \frac{(A^0 )^2 }{2m}
+	i \partial _0 \Psi - \frac{\partial ^2 _0 \Psi }{2m} - iq \frac{A^0 \partial _0 \Psi }{m} = \frac{1}{2m}  \sum _j (i\partial _j + q A^j )(i \partial _j + q A^j ) \Psi + q A^0 \Psi + iq \frac{\partial _0 A^0 }{2m} \Psi - q^2 \frac{(A^0 )^2 }{2m}
 \end{equation}
 $$
 
 Using the non-relativistic limit $ p \ll m $ for the Einstein relation
+
 $$
 \begin{equation}
 	E = \sqrt{p^2 + m^2} \approx \frac{p^2}{2m} - m
 \end{equation}
 $$
 
-we found
+we have
 
 $$
 \begin{equation}
@@ -134,18 +135,82 @@ $$
 $$
 
 and supposing that $ | qA^0 | \ll m $,  we make these approximations in $ \eqref{3} $ obtaining
+
 $$
 \begin{equation}\label{4}
-	i \partial _t \Psi = \frac{1}{2m} (i\nabla + q \vec{A}) \cdot (i\nabla + q \vec{A}) \Psi + q A^0 \Psi \tag{4}
+	i \frac{\partial \Psi}{\partial t} = \frac{1}{2m} (i\nabla + q \mathbf{A}) \cdot (i\nabla + q \mathbf{A}) \Psi + q A^0 \Psi \tag{4}
 \end{equation}
 $$
-If we interpret $ \Psi (x) $ as the probability amplitude to find a particle  between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $, his is the Schrodinger equation with minimal coupling
-$$
-\begin{equation}\label{5}
-	i \partial _t \Psi (t, \mathbf{x}) = \left [ \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q V \right ] \Psi (t, \mathbf{x}) = H \Psi(t, \mathbf{x}) \tag{5}
-\end{equation}
-$$
-where $ \mathbf{p} = -i\nabla $ and $ A^0 = V$.
 
 ## Quantum mechanics 
 
+If we interpret $ \Psi (x) $ as the probability amplitude to find a particle  between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, we would have obtained the Schrodinger equation with minimal coupling
+
+$$
+\begin{equation}\label{5}
+	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left [ \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q A^0 \right ] \Psi (t, \mathbf{x}) = H \Psi(t, \mathbf{x}) \tag{5}
+\end{equation}
+$$
+
+where $ \mathbf{p} = -i\nabla $ is identified as the momentum operator. At a classical level, the hamiltonian
+
+$$
+H = \frac{m}{2} \mathbf{P} ^2 + q A^0 \qquad \text{with} \qquad \mathbf{P} = m( \dot{\mathbf{x}} - q \mathbf{A})
+$$
+
+comes from the lagrangian
+
+$$
+L = \frac{m}{2} (\dot{\mathbf{x}} - q \mathbf{A}) ^2 - q A^0
+$$
+
+where the conjugate momentum is defined as
+
+$$
+\begin{equation}
+	\mathbf{P} = \frac{\partial{L}}{\partial \dot{\mathbf{x}}} = m (\dot{\mathbf{x}} - q \mathbf{A})
+\end{equation}
+$$
+
+also, this is the momentum of the system following from invariance under translations using the Noether theorem. Using this argument, we can define the new momentum operator
+
+$$
+\begin{equation}
+	\mathbf{P} = \mathbf{p} - q \mathbf{A} = -i\nabla - q \mathbf{A}
+\end{equation}
+$$
+
+and write $\eqref{5}$ as
+
+$$
+\begin{equation}\label{6}
+	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left ( \frac{1}{2m} \mathbf{P}^2 + q A^0 \right ) \Psi (t, \mathbf{x}) \tag{6}
+\end{equation}
+$$
+
+### Ehrenfest theorem
+
+The Ehrenfest theorem states that the time evolution of the expected value for some operator $O$ is given by
+
+$$
+\begin{equation}
+	\frac{\mathrm{d} }{\mathrm{d} x}\langle O \rangle = -i \langle [O, H]\rangle + \left \langle \frac{\partial O}{\partial t} \right \rangle
+\end{equation}
+$$
+
+Using this theorem for the components of the momentum operator
+
+$$
+\begin{align}
+	\frac{\mathrm{d} }{\mathrm{d} x}\langle P_i \rangle & = -i \langle [P_i , H]\rangle + \langle \partial _t P_i \rangle \\
+	& = -i \left( \frac{1}{2m} \langle [ P_i , \mathbf{P}^2 ] \rangle + q \langle [ P_i , A^0 ] \rangle \right ) + \langle \partial _t P_i \rangle
+\end{align}
+$$
+
+and after a lot of calculations, we end up with
+
+$$
+\begin{equation}
+	\frac{\mathrm{d} }{\mathrm{d} x}\langle P_i \rangle = \dots
+\end{equation}
+$$
