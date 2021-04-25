@@ -31,12 +31,15 @@ $$
 $$
 
 where $ \partial _{\mu} \partial ^{\mu } = \partial _0 ^2 - \nabla ^2 $. We can use the following separation of variables 
+
 $$
 \begin{equation}
 	\Phi (x) = \phi (\vec{x}) \exp \{ -iEx^0 \}
 \end{equation}
 $$
+
 to obtain the equation for the spatial part of $ \Phi $
+
 $$
 \begin{equation}
 	\nabla ^2 \phi + (E^2 - m^2) \phi = 0
@@ -93,7 +96,15 @@ We take the separation of variables for $ \eqref{2} $ as a reference to make the
 
 $$
 \begin{equation}
-	\Phi (x) = \Psi (x) \exp \{ -imx^0 \} \qquad \text{where} \qquad \Psi (x) = \phi (\vec{x})\exp \{ -i(E - m)x^0 \}
+	\Phi (x) = \Psi (x) \exp \{ -imx^0 \}
+\end{equation}
+$$
+
+where
+
+$$
+\begin{equation}
+	\Psi (x) = \phi (\vec{x})\exp \{ -i(E - m)x^0 \}
 \end{equation}
 $$
 
@@ -207,6 +218,7 @@ $$
 $$
 
 For the position operator we obtain
+
 $$
 \begin{equation}
 	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{x} \rangle = -i \langle [\mathbf{x}, H]\rangle = \frac{1}{m} \left \langle \mathbf{p} - q \mathbf{A} \right \rangle = \frac{1}{m} \langle \mathbf{P} \rangle 
