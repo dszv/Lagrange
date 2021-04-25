@@ -183,7 +183,7 @@ $$
 where $ \mathbf{p} = -i\nabla $ is identified as the canonical momentum operator. At a classical level, the hamiltonian
 
 $$
-H = \frac{1}{2m} (m \dot{\mathbf{x}} - q \mathbf{A})^2 + q A^0 \qquad \text{where} \qquad \mathbf{p} = m \dot{\mathbf{x}}
+H = \frac{1}{2m} (m \dot{\mathbf{x}} - q \mathbf{A})^2 + q \varphi \qquad \text{where} \qquad \mathbf{p} = m \dot{\mathbf{x}}
 $$
 
 comes from the lagrangian
