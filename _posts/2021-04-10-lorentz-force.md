@@ -193,6 +193,7 @@ L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
 $$
 
 via a Legendre transformation [ref]. The conjugate momentum is defined as [ref]
+
 $$
 \begin{equation}
 	\mathbf{P} = \frac{\partial{L}}{\partial \dot{\mathbf{x}}} = m \dot{\mathbf{x}} - q \mathbf{A}
