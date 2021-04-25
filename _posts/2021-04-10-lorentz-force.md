@@ -26,7 +26,7 @@ Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the
 
 $$
 \begin{equation}
-	S = \int \mathrm{d}^4 x \ \mathcal{L} = \int \mathrm{d}^4 x \ \left ( \frac{1}{2} \partial_{\mu }\Phi ^* \partial ^{\mu }\Phi - \frac{m}{2} \Phi ^* \Phi \right )
+	S = \int \mathrm{d}^4 x \ \mathcal{L} = \int \mathrm{d}^4 x \ \left ( \frac{1}{2} \partial_{\mu }\Phi ^* \partial ^{\mu }\Phi - \frac{m^2 }{2} \Phi ^* \Phi \right )
 \end{equation}
 $$
 
