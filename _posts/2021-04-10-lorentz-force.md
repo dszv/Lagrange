@@ -14,15 +14,23 @@ Metric: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
 
 ### Lorentz symmetry
 
-It can be showed that the only possible terms of the lagrangian for a (complex) scalar field $ \Phi (x) $ are of the form
+It can be showed [ref] that the only possible terms of the lagrangian for a complex scalar field $ \Phi (x) $ are of the form
 
 $$
 \begin{equation}\label{1}
-	S = \int \mathrm{d}^4 x \ \mathcal{L} = \int \mathrm{d}^4 x \ [ C_1 \partial_{\mu }\Phi ^* \partial ^{\mu }\Phi + C_2 \Phi ^* \Phi ] \tag{1} 
+	\mathcal{L} = C_1 \partial_{\mu }\Phi ^* \partial ^{\mu }\Phi + C_2 \Phi ^* \Phi \tag{1}
 \end{equation}
 $$
 
-Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the Klein-Gordon lagrangian. Using the least action principle, one can obtain the Klein-Gordon equation
+Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the *Klein-Gordon lagrangian*. Given the action of the system as
+
+$$
+\begin{equation}
+	S = \int \mathrm{d}^4 x \ \mathcal{L} = \int \mathrm{d}^4 x \ \left ( \frac{1}{2} \partial_{\mu }\Phi ^* \partial ^{\mu }\Phi - \frac{m}{2} \Phi ^* \Phi \right )
+\end{equation}
+$$
+
+we use the least action principle to obtain the *Klein-Gordon equation*
 
 $$
 \begin{equation}\label{2}
@@ -30,7 +38,7 @@ $$
 \end{equation}
 $$
 
-where $ \partial _{\mu} \partial ^{\mu } = \partial _0 ^2 - \nabla ^2 $. We can use the following separation of variables 
+where $ \partial _{\mu} \partial ^{\mu } = \partial _0 ^2 - \nabla ^2 $. Using the following separation of variables 
 
 $$
 \begin{equation}
@@ -38,7 +46,7 @@ $$
 \end{equation}
 $$
 
-to obtain the equation for the spatial part of $ \Phi $
+we obtain the equation for the spatial part of $ \Phi $:
 
 $$
 \begin{equation}
@@ -50,7 +58,7 @@ Taking into account the Einstein energy-mass relation $ E^2 = p^2 + m^2 $ we can
 
 ### Gauge symmetry
 
-We can make this field interact with another by making the Klein-Gordon lagrangian $ U(1) $-gauge invariant. The $U(1)$-gauge transformation is given by
+We can make this field interact with another one by making the Klein-Gordon lagrangian $ U(1) $*-gauge invariant* [ref]. The $U(1)$-gauge transformation is given by [ref]
 
 $$
 \begin{equation}
@@ -58,7 +66,7 @@ $$
 \end{equation}
 $$
 
-where $ \alpha (x) $ is a function and $ q $ is a constant. At first sight, the lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the covariant derivative
+where $ \alpha (x) $ is a function and $ q $ is a constant which we need for later. At first sight, the lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the *covariant derivative*
 
 $$
 \begin{equation}
@@ -66,7 +74,7 @@ $$
 \end{equation}
 $$
 
-where $ A $ is a vector field, with gauge transformation law 
+where $ A(x) $ is a vector field, and $ q $ is called the coupling constant. The gauge transformation law needed for the vector field results
 
 $$
 \begin{equation}
@@ -74,7 +82,7 @@ $$
 \end{equation}
 $$
 
-Here, $ q $ is called the coupling constant. Now
+This is the same transformation we  can make to the electromagnetic potential without changing its dynamics [ref]. Now
 
 $$
 \begin{equation}
@@ -82,7 +90,7 @@ $$
 \end{equation}
 $$
 
-is gauge invariant. The principle of least action gives the following equation for the scalar field
+is $U(1)$-gauge invariant. The principle of least action gives the following equation for the scalar field
 
 $$
 \begin{equation}\label{3}
@@ -90,9 +98,9 @@ $$
 \end{equation}
 $$
 
-### Non-relativistic limit
+## Non-relativistic limit
 
-We take the separation of variables for $ \eqref{2} $ as a reference to make the following ansatz for $ \eqref{3} $:
+We take the separation of variables for $ \eqref{2} $ as a reference to make the following ansatz for equation $ \eqref{3} $:
 
 $$
 \begin{equation}
@@ -108,7 +116,7 @@ $$
 \end{equation}
 $$
 
-then
+Calculating
 
 $$
 \partial _{\mu } \partial ^{\mu } \Phi = -(m^2 \Psi + 2im \partial _0 \Psi - \partial ^2 _0 \Psi + \nabla ^2 \Psi ) \exp \{-imx^0 \}
@@ -120,7 +128,7 @@ $$
 A^{\mu } \partial _{\mu } \Phi = A^0 \partial _0 \Phi + A^i \partial _i \Phi = [ A^0 (-im \Psi + \partial _0 \Psi ) + A^i \partial _i \Psi ] \exp \{-imx^0 \}
 $$
 
-Replacing these results in $ \eqref{3} $ we end up with
+we replace these results in $ \eqref{3} $ ending up with
 
 $$
 \begin{align}
@@ -154,7 +162,7 @@ $$
 \end{equation}
 $$
 
-and supposing that $ q A^0 \ll m $, we make these approximations in $ \eqref{3} $ obtaining
+and supposing that $ \mid \, q A^0 \mid \,\ll m $. Making these approximations in $ \eqref{3} $ we obtain
 
 $$
 \begin{equation}\label{4}
@@ -164,7 +172,7 @@ $$
 
 ## Quantum mechanics 
 
-If we interpret $ \Psi (x) $ as the probability amplitude to find a particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the Schrödinger equation with minimal coupling
+If we interpret $ \Psi (x) $ in $ \eqref{4} $ as the probability amplitude to find a particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the *Schrödinger equation with minimal coupling* [ref]
 
 $$
 \begin{equation}\label{5}
@@ -184,15 +192,14 @@ $$
 L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
 $$
 
-via a Legendre transformation, where the conjugate momentum is defined as
-
+via a Legendre transformation [ref]. The conjugate momentum is defined as [ref]
 $$
 \begin{equation}
 	\mathbf{P} = \frac{\partial{L}}{\partial \dot{\mathbf{x}}} = m \dot{\mathbf{x}} - q \mathbf{A}
 \end{equation}
 $$
 
-also, this is the conserved quantity of the system following from invariance under translations using the Noether theorem. Using these arguments, we can define the new conjugate momentum operator by
+also, this is the conserved quantity of the system following from invariance under translations using the Noether theorem [ref]. Using these arguments, we can define the new conjugate momentum operator by
 
 $$
 \begin{equation}
@@ -203,14 +210,14 @@ $$
 and write $\eqref{5}$ as
 
 $$
-\begin{equation}\label{6}
-	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left ( \frac{1}{2m} \mathbf{P}^2 + q \varphi \right ) \Psi (t, \mathbf{x}) \tag{6}
+\begin{equation}
+	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left ( \frac{1}{2m} \mathbf{P}^2 + q \varphi \right ) \Psi (t, \mathbf{x})
 \end{equation}
 $$
 
 ### Ehrenfest theorem
 
-The Ehrenfest theorem states that the time evolution of the expected value for some operator $O$ is given by
+The Ehrenfest theorem states [ref] that the time evolution of the expected value for some operator $O$ is given by
 
 $$
 \begin{equation}
@@ -226,7 +233,7 @@ $$
 \end{equation}
 $$
 
-supporting the definition of the conjugate momentum operator. Using the Ehrenfest theorem for this operator
+supporting the definition of the conjugate momentum operator introduced above. Using the Ehrenfest theorem for this operator
 
 $$
 \begin{equation}
@@ -242,7 +249,7 @@ $$
 \end{equation}
 $$
 
-Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\nabla \varphi  - \frac{\partial \mathbf{A}}{\partial t} $, we finally obtain
+Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\nabla \varphi  - \partial \mathbf{A} / \partial t $, we finally obtain
 
 $$
 \begin{equation}
@@ -250,4 +257,4 @@ $$
 \end{equation}
 $$
 
-which can be identified as the quantum-mechanical version of the Newton second law with Lorentz force.
+which can be identified as the quantum-mechanical version of the Newton second law with the Lorentz force.
