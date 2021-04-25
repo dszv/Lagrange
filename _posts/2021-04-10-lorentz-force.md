@@ -225,7 +225,7 @@ and after a lot of calculations, we end up with
 
 $$
 \begin{equation}
-	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{m} \left \langle \mathbf{P} \times (\nabla \times \mathbf{A}) - (\nabla \times \mathbf{A}) \times \mathbf{P} \right \rangle + q \left \langle - \nabla \varphi - \frac{\partial \mathbf{A}}{\partial t} \right \rangle
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times (\nabla \times \mathbf{A}) - (\nabla \times \mathbf{A}) \times \mathbf{P} \right \rangle + q \left \langle - \nabla \varphi - \frac{\partial \mathbf{A}}{\partial t} \right \rangle
 \end{equation}
 $$
 
@@ -233,7 +233,7 @@ Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\
 
 $$
 \begin{equation}
-	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle \equiv \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
+	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle \equiv \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
 \end{equation}
 $$
 
