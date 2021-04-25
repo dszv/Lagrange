@@ -132,9 +132,10 @@ $$
 which can be rewritten as
 
 $$
-\begin{equation}
-	i \partial _0 \Psi - \frac{\partial ^2 _0 \Psi }{2m} - iq \frac{A^0 \partial _0 \Psi }{m} = \frac{1}{2m}  \sum _j (i\partial _j + q A^j )(i \partial _j + q A^j ) \Psi + q A^0 \Psi + iq \frac{\partial _0 A^0 }{2m} \Psi - q^2 \frac{(A^0 )^2 }{2m}
-\end{equation}
+\begin{align}
+	i \partial _0 \Psi - \frac{\partial ^2 _0 \Psi }{2m} - iq \frac{A^0 \partial _0 \Psi }{m} & - iq \frac{\partial _0 A^0 }{2m} \Psi + q^2 \frac{(A^0 )^2 }{2m} \\
+	& = \frac{1}{2m}  \sum _j (i\partial _j + q A^j )(i \partial _j + q A^j ) \Psi + q A^0 \Psi
+\end{align}
 $$
 
 Using the non-relativistic limit $ p \ll m $ for the Einstein relation
@@ -245,7 +246,7 @@ Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\
 
 $$
 \begin{equation}
-	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle \equiv \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
+	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle = \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
 \end{equation}
 $$
 
