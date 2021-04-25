@@ -10,6 +10,8 @@ Deduction of the Lorentz force as a relation of expected values on the quantum m
 
 ## Klein-Gordon equation with electromagnetic interaction
 
+Metric: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
+
 ### Lorentz symmetry
 
 It can be showed that the only possible terms of the lagrangian for a (complex) scalar field $ \Phi (x) $ are of the form
@@ -20,7 +22,7 @@ $$
 \end{equation}
 $$
 
-Renaming the constants $ C_1 = 1 $ and $ C_2 = -m^2 $, we can call this the Klein-Gordon lagrangian. Using the least action principle, one can obtain the Klein-Gordon equation
+Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the Klein-Gordon lagrangian. Using the least action principle, one can obtain the Klein-Gordon equation
 
 $$
 \begin{equation}\label{2}
@@ -28,8 +30,13 @@ $$
 \end{equation}
 $$
 
-We can use separation of variables $ \Phi (x) = \phi (\vec{x}) \exp \{ -iEx^0 \} $ obtaining the following equation for the spatial part
-
+where $ \partial _{\mu} \partial ^{\mu } = \partial _0 ^2 - \nabla ^2 $. We can use the following separation of variables 
+$$
+\begin{equation}
+	\Phi (x) = \phi (\vec{x}) \exp \{ -iEx^0 \}
+\end{equation}
+$$
+to obtain the equation for the spatial part of $ \Phi $
 $$
 \begin{equation}
 	\nabla ^2 \phi + (E^2 - m^2) \phi = 0
@@ -40,35 +47,35 @@ Taking into account the Einstein energy-mass relation $ E^2 = p^2 + m^2 $ we can
 
 ### Gauge symmetry
 
-We can make this field interact with electromagnetism by making the Klein-Gordon lagrangian $ U(1) $ gauge invariant. The $U(1)$ gauge transformation is given by
+We can make this field interact with another by making the Klein-Gordon lagrangian $ U(1) $-gauge invariant. The $U(1)$-gauge transformation is given by
 
 $$
 \begin{equation}
-	\Phi(x) \quad \mapsto \quad \Phi '(x) = \Phi(x) \exp \{ -i \alpha (x) \}
+	\Phi(x) \quad \mapsto \quad \Phi '(x) = \Phi(x) \exp \{ -iq \alpha (x) \}
 \end{equation}
 $$
 
-where $ \alpha (x) $ is a function. At first sight, the lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the covariant derivative
+where $ \alpha (x) $ is a function and $ q $ is a constant. At first sight, the lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the covariant derivative
 
 $$
 \begin{equation}
-	\partial _{\mu } \quad \mapsto \quad D_{\mu } = \partial _{\mu } + iqA_{\mu } (x)
+	\partial _{\mu } \quad \Rightarrow \quad D_{\mu } = \partial _{\mu } + iqA_{\mu } (x)
 \end{equation}
 $$
 
-where $ A^{\mu } $ is a vector field, with gauge transformation law 
+where $ A $ is a vector field, with gauge transformation law 
 
 $$
 \begin{equation}
-	A^{\mu } (x) \quad \mapsto \quad A'^{\mu } (x) = A^{\mu } (x) + q^{-1}\partial ^{\mu } \alpha (x)
+	A_{\mu } (x) \quad \mapsto \quad A'_{\mu } (x) = A_{\mu } (x) + \partial _{\mu } \alpha (x)
 \end{equation}
 $$
 
-and $q$ is called coupling constant. Now
+Here, $ q $ is called the coupling constant. Now
 
 $$
 \begin{equation}
-	\mathcal{L} = (\partial _{\mu } - iqA_{\mu }) \Phi ^* (\partial ^{\mu } + iqA^{\mu }) \Phi - m^2 \Phi ^* \Phi
+	\mathcal{L} = \frac{1}{2}(\partial _{\mu } - iqA_{\mu }) \Phi ^* (\partial ^{\mu } + iqA^{\mu }) \Phi - \frac{m^2}{2} \Phi ^* \Phi
 \end{equation}
 $$
 
@@ -76,7 +83,7 @@ is gauge invariant. The principle of least action gives the following equation f
 
 $$
 \begin{equation}\label{3}
-	\partial _{\mu } \partial ^{\mu } \Phi + [iq(\partial _{\mu } A^{\mu }) + 2iq A^{\mu } \partial _{\mu } - q^2 A^2 + m^2 ] \Phi = 0 \tag{3}
+	\partial _{\mu } \partial ^{\mu } \Phi + [m^2 + iq(\partial _{\mu } A^{\mu }) + 2iq A^{\mu } \partial _{\mu } - q^2 A^2 ] \Phi = 0 \tag{3}
 \end{equation}
 $$
 
@@ -93,7 +100,7 @@ $$
 then
 
 $$
-\partial _{\mu } \partial ^{\mu } \Phi = (\partial ^2 _0 - \nabla ^2 )\Phi = -(m^2 \Psi + 2im \partial _0 \Psi - \partial ^2 _0 \Psi + \nabla ^2 \Psi ) \exp \{-imx^0 \}
+\partial _{\mu } \partial ^{\mu } \Phi = -(m^2 \Psi + 2im \partial _0 \Psi - \partial ^2 _0 \Psi + \nabla ^2 \Psi ) \exp \{-imx^0 \}
 $$
 
 and
@@ -106,8 +113,8 @@ Replacing these results in $ \eqref{3} $ we end up with
 
 $$
 \begin{align}
-	-2im \partial _0 \Psi + \partial ^2 _0 \Psi - \nabla ^2 \Psi & + iq (\partial _0 A^0 ) \Psi + iq (\partial _i A^i ) \Psi + 2qm A^0 \Psi \\
-    & + 2iq A^0 \partial _0 \Psi + 2iq A^i \partial _i \Psi - q^2 (A^0 )^2 + q^2 \vec{A}^2 = 0
+	-2im \partial _0 \Psi + \partial ^2 _0 \Psi & - \nabla ^2 \Psi + iq (\partial _{\mu } A^{\mu } ) \Psi \\
+    & + 2qm A^0 \Psi + 2iq A^0 \partial _0 \Psi + 2iq A^i \partial _i \Psi - q^2 A^2 \Psi= 0
 \end{align}
 $$
 
@@ -123,7 +130,7 @@ Using the non-relativistic limit $ p \ll m $ for the Einstein relation
 
 $$
 \begin{equation}
-	E = \sqrt{p^2 + m^2} \approx \frac{p^2}{2m} - m
+	E = \sqrt{p^2 + m^2} \approx \frac{p^2}{2m} + m
 \end{equation}
 $$
 
@@ -145,35 +152,35 @@ $$
 
 ## Quantum mechanics 
 
-If we interpret $ \Psi (x) $ as the probability amplitude to find a particle  between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, we would have obtained the Schrodinger equation with minimal coupling
+If we interpret $ \Psi (x) $ as the probability amplitude to find a particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the Schrödinger equation with minimal coupling
 
 $$
 \begin{equation}\label{5}
-	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left [ \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q A^0 \right ] \Psi (t, \mathbf{x}) = H \Psi(t, \mathbf{x}) \tag{5}
+	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left [ \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q \varphi \right ] \Psi (t, \mathbf{x}) \equiv  H \Psi(t, \mathbf{x}) \tag{5}
 \end{equation}
 $$
 
-where $ \mathbf{p} = -i\nabla $ is identified as the momentum operator. At a classical level, the hamiltonian
+where $ \mathbf{p} = -i\nabla $ is identified as the canonical momentum operator. At a classical level, the hamiltonian
 
 $$
-H = \frac{m}{2} \mathbf{P} ^2 + q A^0 \qquad \text{with} \qquad \mathbf{P} = m( \dot{\mathbf{x}} - q \mathbf{A})
+H = \frac{1}{2m} (m \dot{\mathbf{x}} - q \mathbf{A})^2 + q A^0 \qquad \text{where} \qquad \mathbf{p} = m \dot{\mathbf{x}}
 $$
 
 comes from the lagrangian
 
 $$
-L = \frac{m}{2} (\dot{\mathbf{x}} - q \mathbf{A}) ^2 - q A^0
+L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
 $$
 
-where the conjugate momentum is defined as
+via a Legendre transformation, where the conjugate momentum is defined as
 
 $$
 \begin{equation}
-	\mathbf{P} = \frac{\partial{L}}{\partial \dot{\mathbf{x}}} = m (\dot{\mathbf{x}} - q \mathbf{A})
+	\mathbf{P} = \frac{\partial{L}}{\partial \dot{\mathbf{x}}} = m \dot{\mathbf{x}} - q \mathbf{A}
 \end{equation}
 $$
 
-also, this is the momentum of the system following from invariance under translations using the Noether theorem. Using this argument, we can define the new momentum operator
+also, this is the conserved quantity of the system following from invariance under translations using the Noether theorem. Using these arguments, we can define the new conjugate momentum operator by
 
 $$
 \begin{equation}
@@ -185,7 +192,7 @@ and write $\eqref{5}$ as
 
 $$
 \begin{equation}\label{6}
-	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left ( \frac{1}{2m} \mathbf{P}^2 + q A^0 \right ) \Psi (t, \mathbf{x}) \tag{6}
+	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left ( \frac{1}{2m} \mathbf{P}^2 + q \varphi \right ) \Psi (t, \mathbf{x}) \tag{6}
 \end{equation}
 $$
 
@@ -199,19 +206,35 @@ $$
 \end{equation}
 $$
 
-Using this theorem for the components of the momentum operator
+For the position operator we obtain
+$$
+\begin{equation}
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{x} \rangle = -i \langle [\mathbf{x}, H]\rangle = \frac{1}{m} \left \langle \mathbf{p} - q \mathbf{A} \right \rangle = \frac{1}{m} \langle \mathbf{P} \rangle 
+\end{equation}
+$$
+
+supporting the definition of the conjugate momentum operator. Using the Ehrenfest theorem for this operator
 
 $$
-\begin{align}
-	\frac{\mathrm{d} }{\mathrm{d} t}\langle P_i \rangle & = -i \langle [P_i , H]\rangle + \langle \partial _t P_i \rangle \\
-	& = -i \left( \frac{1}{2m} \langle [ P_i , \mathbf{P}^2 ] \rangle + q \langle [ P_i , A^0 ] \rangle \right ) + \langle \partial _t P_i \rangle
-\end{align}
+\begin{equation}
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = -i \left \langle [\mathbf{P} , H] \right \rangle + \left \langle \frac{\partial \mathbf{P}}{\partial t} \right \rangle
+\end{equation}
 $$
 
 and after a lot of calculations, we end up with
 
 $$
 \begin{equation}
-	\frac{\mathrm{d} }{\mathrm{d} t}\langle P_i \rangle = \dots
+	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{m} \left \langle \mathbf{P} \times (\nabla \times \mathbf{A}) - (\nabla \times \mathbf{A}) \times \mathbf{P} \right \rangle + q \left \langle - \nabla \varphi - \frac{\partial \mathbf{A}}{\partial t} \right \rangle
 \end{equation}
 $$
+
+Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\nabla \varphi  - \frac{\partial \mathbf{A}}{\partial t} $, we finally obtain
+
+$$
+\begin{equation}
+	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle \equiv \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
+\end{equation}
+$$
+
+which can be identified as the quantum-mechanical version of the Newton second law with Lorentz force.
