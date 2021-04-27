@@ -163,6 +163,7 @@ $$
 $$
 
 and supposing that $ \mid \, q A^0 \mid \,\ll m $, we make these approximations in $ \eqref{3} $ to obtain
+
 $$
 \begin{equation}\label{4}
 	i \frac{\partial \Psi}{\partial t} = \frac{1}{2m} (i\nabla + q \mathbf{A}) \cdot (i\nabla + q \mathbf{A}) \Psi + q A^0 \Psi \tag{4}
