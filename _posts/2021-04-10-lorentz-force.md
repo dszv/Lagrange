@@ -192,7 +192,7 @@ $$
 L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
 $$
 
-via a Legendre transformation[^4]. The conjugate momentum is defined as [^4]
+via a Legendre transformation[^4]. The conjugate momentum is defined as[^4]
 
 $$
 \begin{equation}
@@ -263,5 +263,5 @@ which can be identified as the quantum-mechanical version of the Newton second l
 
 [^1]: Schwichetenberg, J. *Physics from symmetry*. Springer.
 [^2]: Jackson, J. *Classical Electrodynamics*. Wiley & Sons.
-[^3]: Landau, L.; Lifshitz, E. *Quantum Mechanics, non-relativistuc theory*. Pergamon.
+[^3]: Landau, L.; Lifshitz, E. *Quantum Mechanics, non-relativistic theory*. Pergamon.
 [^4]: Goldstein, H.; Poole, C.; Safko, J. *Classical Mechanics*. Addison Wesley.
