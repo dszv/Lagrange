@@ -14,7 +14,7 @@ Metric: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
 
 ### Lorentz symmetry
 
-It can be showed [ref] that the only possible terms of the lagrangian for a complex scalar field $ \Phi (x) $ are of the form
+It can be showed[^1] that the only possible terms of the lagrangian for a complex scalar field $ \Phi (x) $ are of the form
 
 $$
 \begin{equation}\label{1}
@@ -58,7 +58,7 @@ Taking into account the Einstein energy-mass relation $ E^2 = p^2 + m^2 $ we can
 
 ### Gauge symmetry
 
-We can make this field interact with another one by making the Klein-Gordon lagrangian $ U(1) $*-gauge invariant* [ref]. The $U(1)$-gauge transformation is given by [ref]
+We can make this field interact with another one by making the Klein-Gordon lagrangian $ U(1) $*-gauge invariant* [^1]. The $U(1)$-gauge transformation is given by
 
 $$
 \begin{equation}
@@ -82,7 +82,7 @@ $$
 \end{equation}
 $$
 
-This is the same transformation we  can make to the electromagnetic potential without changing its dynamics [ref]. Now
+This is the same transformation we  can make to the electromagnetic potential without changing its dynamics[^2]. Now
 
 $$
 \begin{equation}
@@ -172,7 +172,7 @@ $$
 
 ## Quantum mechanics 
 
-If we interpret $ \Psi (x) $ in $ \eqref{4} $ as the probability amplitude to find a particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the *Schrödinger equation with minimal coupling* [ref]
+If we interpret $ \Psi (x) $ in $ \eqref{4} $ as the probability amplitude to find a spinless particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the *Schrödinger equation with minimal coupling*[^3]
 
 $$
 \begin{equation}\label{5}
@@ -192,7 +192,7 @@ $$
 L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
 $$
 
-via a Legendre transformation [ref]. The conjugate momentum is defined as [ref]
+via a Legendre transformation[^4]. The conjugate momentum is defined as [^4]
 
 $$
 \begin{equation}
@@ -200,7 +200,7 @@ $$
 \end{equation}
 $$
 
-also, this is the conserved quantity of the system following from invariance under translations using the Noether theorem [ref]. Using these arguments, we can define the new conjugate momentum operator by
+also, this is the conserved quantity of the system following from invariance under translations using the Noether theorem[^4]. Using these arguments, we can define the new conjugate momentum operator by
 
 $$
 \begin{equation}
@@ -218,7 +218,7 @@ $$
 
 ### Ehrenfest theorem
 
-The Ehrenfest theorem states [ref] that the time evolution of the expected value for some operator $O$ is given by
+The Ehrenfest theorem states[^1] that the time evolution of the expected value for some operator $O$ is given by
 
 $$
 \begin{equation}
@@ -235,7 +235,6 @@ $$
 $$
 
 supporting the definition of the conjugate momentum operator introduced above. Using the Ehrenfest theorem for this operator
-
 $$
 \begin{equation}
 	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = -i \left \langle [\mathbf{P} , H] \right \rangle + \left \langle \frac{\partial \mathbf{P}}{\partial t} \right \rangle
@@ -259,3 +258,10 @@ $$
 $$
 
 which can be identified as the quantum-mechanical version of the Newton second law with the Lorentz force.
+
+## References
+
+[^1]: Schwichetenberg, J. *Physics from symmetry*. Springer.
+[^2]: Jackson, J. *Classical Electrodynamics*. Wiley & Sons.
+[^3]: Landau, L.; Lifshitz, E. *Quantum Mechanics, non-relativistuc theory*. Pergamon.
+[^4]: Goldstein, H.; Poole, C.; Safko, J. *Classical Mechanics*. Addison Wesley.
