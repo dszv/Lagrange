@@ -235,6 +235,7 @@ $$
 $$
 
 supporting the definition of the conjugate momentum operator introduced above. Using the Ehrenfest theorem for this operator
+
 $$
 \begin{equation}
 	\frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = -i \left \langle [\mathbf{P} , H] \right \rangle + \left \langle \frac{\partial \mathbf{P}}{\partial t} \right \rangle
