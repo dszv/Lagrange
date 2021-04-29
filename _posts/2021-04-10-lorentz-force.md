@@ -14,7 +14,7 @@ Metric: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
 
 ### Lorentz symmetry
 
-It can be showed[^1] that the only possible terms of the lagrangian for a complex scalar field $ \Phi (x) $ are of the form
+It can be showed[^1] that the only possible terms of the Lagrangian for a complex scalar field $ \Phi (x) $ are of the form
 
 $$
 \begin{equation}\label{1}
@@ -180,13 +180,15 @@ $$
 \end{equation}
 $$
 
-where $ \mathbf{p} = -i\nabla $ is identified as the canonical momentum operator. At a classical level, the hamiltonian
+where
 
 $$
-H = \frac{1}{2m} (m \dot{\mathbf{x}} - q \mathbf{A})^2 + q \varphi \qquad \text{where} \qquad \mathbf{p} = m \dot{\mathbf{x}}
+\begin{equation}
+	H \equiv \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q \varphi
+\end{equation}
 $$
 
-comes from the lagrangian
+and $ \mathbf{p} = -i\nabla $ is identified as the canonical momentum operator. At a classical level, this Hamiltonian, where $ \mathbf{p} = m\dot{\mathbf{x}} $, comes from the Lagrangian
 
 $$
 L = \frac{1}{2m} (m\dot{\mathbf{x}} - q \mathbf{A}) ^2 + q \varphi
@@ -234,6 +236,14 @@ $$
 \end{equation}
 $$
 
+and
+
+$$
+\begin{equation}
+	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle = \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle
+\end{equation}
+$$
+
 supporting the definition of the conjugate momentum operator introduced above. Using the Ehrenfest theorem for this operator
 
 $$
@@ -254,7 +264,7 @@ Remembering that $ \mathbf{B} = \nabla \times \mathbf{A} $ and $ \mathbf{E} = -\
 
 $$
 \begin{equation}
-	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle = \frac{\mathrm{d} }{\mathrm{d} t}\langle \mathbf{P} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
+	m  \frac{\mathrm{d}^2 }{\mathrm{d} t^2 }\langle \mathbf{x} \rangle = \frac{q}{2m} \left \langle \mathbf{P} \times \mathbf{B} - \mathbf{B} \times \mathbf{P} \right \rangle + q \left \langle \mathbf{E} \right \rangle 
 \end{equation}
 $$
 
