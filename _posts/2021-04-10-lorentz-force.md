@@ -22,7 +22,7 @@ $$
 \end{equation}
 $$
 
-Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the *Klein-Gordon lagrangian*. Given the action of the system as
+Renaming the constants $ C_1 = 1/2 $ and $ C_2 = -m^2 /2 $, we can call this the *Klein-Gordon Lagrangian*. Given the action of the system as
 
 $$
 \begin{equation}
@@ -58,7 +58,7 @@ Taking into account the Einstein energy-mass relation $ E^2 = p^2 + m^2 $ we can
 
 ### Gauge symmetry
 
-We can make this field interact with another one by making the Klein-Gordon lagrangian $ U(1) $*-gauge invariant* [^1]. The $U(1)$-gauge transformation is given by
+We can make this field interact with another one by making the Klein-Gordon Lagrangian $ U(1) $*-gauge invariant*[^1]. The $U(1)$-gauge transformation is given by
 
 $$
 \begin{equation}
@@ -66,7 +66,7 @@ $$
 \end{equation}
 $$
 
-where $ \alpha (x) $ is a function and $ q $ is a constant which we need for later. At first sight, the lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the *covariant derivative*
+where $ \alpha (x) $ is a function and $ q $ is a constant which we need for later. At first sight, the Lagrangian $ \eqref{1} $ is not gauge invariant, but we can make it so by replacing the derivative with the *covariant derivative*
 
 $$
 \begin{equation}
