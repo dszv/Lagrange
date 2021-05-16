@@ -10,7 +10,7 @@ Deduction of the Lorentz force as a relation of expected values on the quantum m
 
 ## Klein-Gordon equation with electromagnetic interaction
 
-Metric: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
+Conventions: metric signature: $ (+, -, -, -) $, natural units: $ c = \hbar = 1$.
 
 ### Lorentz symmetry
 
