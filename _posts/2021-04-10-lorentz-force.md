@@ -172,8 +172,7 @@ $$
 
 ## Quantum mechanics 
 
-If we interpret $ \Psi (x) $ in $ \eqref{4} $ as the probability amplitude to find a spin-less particle (with electric charge $q$) between $\vec{x}$ and $ \vec{x} + \mathrm{d} \vec{x} $ at a time $t$, $A^0 \equiv \varphi $ as the electric potential, and $\mathbf{A}$ as the magnetic potential, we obtain the *Schrödinger equation with minimal coupling*[^3]
-
+If we interpret $ \Psi (x) $ in $ \eqref{4} $ as the probability amplitude to find a spin-less particle (with electric charge $q$) between $ \mathbf{x} $ and $ \mathbf{x} + \mathrm{d} \mathbf{x} $ at a time $ t $, $ A^0 \equiv \varphi $ as the electric potential, and $ \mathbf{A} $ as the magnetic potential, we obtain the *Schrödinger equation with minimal coupling*[^3]
 $$
 \begin{equation}\label{5}
 	i \frac{\partial }{\partial t} \Psi (t, \mathbf{x}) = \left [ \frac{1}{2m} (\mathbf{p} - q \mathbf{A}) \cdot (\mathbf{p} - q \mathbf{A}) + q \varphi \right ] \Psi (t, \mathbf{x}) \tag{5}
@@ -210,7 +209,7 @@ $$
 \end{equation}
 $$
 
-and write $\eqref{5}$ as
+and write $ \eqref{5} $ as
 
 $$
 \begin{equation}
