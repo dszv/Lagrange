@@ -514,5 +514,5 @@ th, td {
 }
 
 .fa-rss-square:hover {
-	color: #ff6600;
+	color: #343434; /* ff6600; */
 }
