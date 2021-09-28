@@ -112,7 +112,7 @@ where
 
 $$
 \begin{equation}
-	\Psi (x) = \phi (\vec{x})\exp \{ -i(E - m)x^0 \}
+	\Psi (x) = \phi (\mathbf{x})\exp \{ -i(E - m)x^0 \}
 \end{equation}
 $$
 
