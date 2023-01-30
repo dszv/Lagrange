@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Author
+image: vanallen.jpg
 ---
 ## *D.*
 
 *M. Sc. Applied Mathematics*\
 *B. Sc. Physics*\
-[Mail](mailto:diego.suarez@uni.pe), [ResearchGate](https://www.researchgate.net/profile/Diego_Suarez_Valencia), [arXiv](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D), [GitHub](https://github.com/dszv)
+[ResearchGate](https://www.researchgate.net/profile/Diego_Suarez_Valencia), [arXiv](https://arxiv.org/search/hep-th?searchtype=author&query=Suarez%2C+D), [GitHub](https://github.com/dszv)
