@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Measurement in Quantum Mechanics"
-author: "S"
+author: "D."
 categories: journal
 tags: [quantum mechanics, experiment]
 image: measurement.jpeg
 ---
 The question of carrying out measurements in quantum-mechanical systems and an interpretation of the results so obtained is rightly considered to be very complicated, requiring even today further research. We shall not given a detailed analysis of the problem of quantum-mechanical measurements, but shall try to describe a number of fundamental statements which have been explained clearly, and demonstrate them using some examples. 
+
+---
 
 ## The Origin of the Superposition of States and the Meaning of the Amplitudes of States
 
@@ -116,4 +118,6 @@ In classical mechanics (as also in all theories of dynamic type) the problem of 
 
 It is from this point of view of resolution of contradiction between the possible and the actual that the measuring process in quantum mechanics should be considered. The presence of a micro-particle in the superposition state corresponds to a situation where the micro-particle is characterized by a definite set of possibilities The quantum-mechanical principle of superposition of states should be interpreted in this way only. In the interaction process of a micro-particle with the detector, the above-mentioned resolution of distinction between the possible and the actual takes place, the superposition of probabilities is destroyed and is replaced by one of the alternatives realized. It may be said that the "formula" of measuring process is the mathematical expression for the process in which the dialectical contradiction between the possible and the actual is resolved. The nature of this resolution is that of an *irreversible* and *uncontrollable jump*.
 
-[Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*]
+---
+
+Transcript of L. V. Tarasov, *Basic Concepts of Quantum Mechanics*

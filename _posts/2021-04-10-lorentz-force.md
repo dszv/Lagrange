@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lorentz Force from symmetry"
-author: "D"
+author: "D."
 categories: journal
 tags: [quantum mechanics]
 image: vanallen.jpg
