@@ -2,9 +2,9 @@
 layout: page
 title: Author
 ---
-### DASV
+## *D*
 
-M. Sc. Applied Mathematics\
+*M. Sc. Applied Mathematics*\
 *B. Sc. Physics*\
 *Universidad Nacional de Ingeniería*\
 *Lima, Peru*\

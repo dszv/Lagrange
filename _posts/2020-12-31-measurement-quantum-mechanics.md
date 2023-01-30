@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Measurement in Quantum Mechanics"
-author: "Diego S"
+author: "S"
 categories: journal
 tags: [quantum mechanics, experiment]
 image: measurement.jpeg
