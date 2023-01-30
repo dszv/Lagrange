@@ -2,8 +2,9 @@
 layout: page
 title: Author
 ---
-### Diego Suárez Valencia
+### DASV
 
+M. Sc. Applied Mathematics\
 *B. Sc. Physics*\
 *Universidad Nacional de Ingeniería*\
 *Lima, Peru*\

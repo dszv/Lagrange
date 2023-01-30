@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-A personal blog about physics using the [Lagrange theme](https://github.com/LeNPaul/Lagrange).
+Random thoughts about physics.
 
 ### License
 
