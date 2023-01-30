@@ -8,6 +8,8 @@ image: vanallen.jpg
 ---
 Deduction of the Lorentz force as a relation of expected values on the quantum mechanical formalism using symmetry arguments.
 
+---
+
 ## Klein-Gordon equation with electromagnetic interaction
 
 Conventions: metric $ \eta_{ \mu \nu } = \text{diag} (+1, -1, -1, -1) $, natural units $ \hbar = c = 1$.
@@ -269,6 +271,8 @@ $$
 $$
 
 which can be identified as the quantum-mechanical version of the Newton second law with the Lorentz force.
+
+---
 
 ## References
 
