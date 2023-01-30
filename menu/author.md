@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Author
-image: vanallen.jpg
 ---
+
 ## *D.*
 
 *M. Sc. Applied Mathematics*\
