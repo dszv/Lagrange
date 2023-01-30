@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lorentz Force from symmetry"
+title: "Lorentz force from symmetry"
 author: "D."
 categories: journal
 tags: [quantum mechanics]
@@ -10,7 +10,7 @@ Deduction of the Lorentz force as a relation of expected values on the quantum m
 
 ---
 
-## Klein-Gordon equation with electromagnetic interaction
+## Klein-Gordon equation with minimal coupling
 
 Conventions: metric $ \eta_{ \mu \nu } = \text{diag} (+1, -1, -1, -1) $, natural units $ \hbar = c = 1$.
 
