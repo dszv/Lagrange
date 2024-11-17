@@ -1,4 +1,4 @@
-# Vacua
+# Topological Vacua
 
 A personal blog about physics notes using the Lagrange theme.
 
