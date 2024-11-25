@@ -27,6 +27,11 @@
     src: url("../fonts/agave regular Nerd Font Complete.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-VariableFont_wght.ttf") format('truetype');
+}
+
 body {
   font-family: "Mononoki Nerd Font", Georgia, "Times New Roman", serif; /* PT Serif */
   font-size: 15px;

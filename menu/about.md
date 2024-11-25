@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Random thoughts about physics.
+A place to delve into physics.
 
 ### License
 
